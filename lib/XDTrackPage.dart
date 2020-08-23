@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import 'package:xdtest/XDHistoryPage.dart';
 
 class XDTrackPage extends StatelessWidget {
   XDTrackPage({
@@ -111,39 +110,6 @@ class XDTrackPage extends StatelessWidget {
                                   'assets/images/history_icon.png'),
                               fit: BoxFit.fill,
                             ),
-                          ),
-                        ),
-                      ),
-                      Pinned.fromSize(
-                        bounds: Rect.fromLTWH(0.0, 0.0, 52.0, 52.0),
-                        size: Size(52.0, 52.0),
-                        pinLeft: true,
-                        pinRight: true,
-                        pinTop: true,
-                        pinBottom: true,
-                        child:
-                        // Adobe XD layer: 'bg' (shape)
-                        Ink(
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(12.0),
-                            color: const Color(0xffffffff),
-                            boxShadow: [
-                              BoxShadow(
-                                color: const Color(0x1a455b63),
-                                offset: Offset(0, 12),
-                                blurRadius: 16,
-                              ),
-                            ],
-                          ),
-                          child: InkWell(
-                            splashColor: Colors.black.withOpacity(0.0),
-                            highlightColor: Colors.black.withOpacity(0.0),
-                            onTap: () {
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => XDHistoryPage()),
-                              );
-                            },
                           ),
                         ),
                       ),
@@ -465,33 +431,6 @@ class XDTrackPage extends StatelessWidget {
                                         'assets/images/back_icon.png'),
                                     fit: BoxFit.fill,
                                   ),
-                                ),
-                              ),
-                            ),
-                            Pinned.fromSize(
-                              bounds: Rect.fromLTWH(0.0, 0.0, 42.0, 40.0),
-                              size: Size(42.0, 40.0),
-                              pinLeft: true,
-                              fixedWidth: true,
-                              fixedHeight: true,
-                              child: Ink(
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(12.0),
-                                  color: const Color(0xffffffff),
-                                  boxShadow: [
-                                    BoxShadow(
-                                      color: const Color(0x29000000),
-                                      offset: Offset(0, 3),
-                                      blurRadius: 16,
-                                    ),
-                                  ],
-                                ),
-                                child: InkWell(
-                                  splashColor: Colors.black.withOpacity(0.0),
-                                  highlightColor: Colors.black.withOpacity(0.0),
-                                  onTap: () {
-                                    Navigator.pop(context);
-                                  },
                                 ),
                               ),
                             ),

@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import 'XDTrackPage.dart';
+import 'package:xdtest/XDTrackPage.dart';
+import 'package:xdtest/XDDeleteDevice.dart';
+import 'package:xdtest/XDEditDevice.dart';
+import 'package:xdtest/XDAddDevice.dart';
 
 class XDHomescreen extends StatelessWidget {
   XDHomescreen({
@@ -76,6 +79,30 @@ class XDHomescreen extends StatelessWidget {
                         image: const AssetImage('assets/images/trash_icon.png'),
                         fit: BoxFit.fill,
                       ),
+                    ),
+                  ),
+                ),
+                Pinned.fromSize(
+                  bounds: Rect.fromLTWH(0.0, 0.0, 146.5, 149.6),
+                  size: Size(146.5, 149.6),
+                  pinLeft: true,
+                  pinRight: true,
+                  child: Ink(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0x00ffffff),
+                      border: Border.all(
+                          width: 1.0, color: const Color(0xffffffff)),
+                    ),
+                    child: InkWell(
+                      splashColor: Colors.black.withOpacity(0.0),
+                      highlightColor: Colors.black.withOpacity(0.0),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => XDDeleteDevice()),
+                        );
+                      },
                     ),
                   ),
                 ),
@@ -209,6 +236,30 @@ class XDHomescreen extends StatelessWidget {
                     ),
                   ),
                 ),
+                Pinned.fromSize(
+                  bounds: Rect.fromLTWH(0.0, 0.0, 146.5, 149.6),
+                  size: Size(146.5, 149.6),
+                  pinLeft: true,
+                  pinRight: true,
+                  child: Ink(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0x00ffffff),
+                      border: Border.all(
+                          width: 1.0, color: const Color(0xffffffff)),
+                    ),
+                    child: InkWell(
+                      splashColor: Colors.black.withOpacity(0.0),
+                      highlightColor: Colors.black.withOpacity(0.0),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => XDAddDevice()),
+                        );
+                      },
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
@@ -259,6 +310,30 @@ class XDHomescreen extends StatelessWidget {
                         image: const AssetImage('assets/images/edit_icon.png'),
                         fit: BoxFit.fill,
                       ),
+                    ),
+                  ),
+                ),
+                Pinned.fromSize(
+                  bounds: Rect.fromLTWH(0.0, 0.0, 146.5, 149.6),
+                  size: Size(146.5, 149.6),
+                  pinLeft: true,
+                  pinRight: true,
+                  child: Ink(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      color: const Color(0x00ffffff),
+                      border: Border.all(
+                          width: 1.0, color: const Color(0xffffffff)),
+                    ),
+                    child: InkWell(
+                      splashColor: Colors.black.withOpacity(0.0),
+                      highlightColor: Colors.black.withOpacity(0.0),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => XDEditDevice()),
+                        );
+                      },
                     ),
                   ),
                 ),

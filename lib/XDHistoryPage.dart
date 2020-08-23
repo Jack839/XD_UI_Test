@@ -1728,18 +1728,12 @@ class XDHistoryPage extends StatelessWidget {
                         fixedHeight: true,
                         child:
                             // Adobe XD layer: 'back' (shape)
-                        InkWell(
-                          splashColor: Colors.black.withOpacity(0.0),
-                          highlightColor: Colors.black.withOpacity(0.0),
-                          onTap: () {
-                            Navigator.pop(context);
-                          },
-                          child: Container(
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image: const AssetImage('assets/images/back_icon.png'),
-                                fit: BoxFit.fill,
-                              ),
+                            Container(
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: const AssetImage(
+                                  'assets/images/back_icon.png'),
+                              fit: BoxFit.fill,
                             ),
                           ),
                         ),
