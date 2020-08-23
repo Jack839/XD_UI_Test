@@ -1,6 +1,6 @@
 # xdtest
 
-XD Test Flutter Application
+Flutter Tracking Application for testing AdobeXD UI
 
 ## Getting Started
 
