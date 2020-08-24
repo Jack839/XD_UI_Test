@@ -20,8 +20,8 @@ class XDHistoryPage extends StatelessWidget {
             pinTop: true,
             pinBottom: true,
             child:
-                // Adobe XD layer: 'bg/white-gray' (group)
-                Stack(
+            // Adobe XD layer: 'bg/white-gray' (group)
+            Stack(
               children: <Widget>[
                 Pinned.fromSize(
                   bounds: Rect.fromLTWH(0.0, 0.0, 398.0, 813.0),
@@ -31,8 +31,8 @@ class XDHistoryPage extends StatelessWidget {
                   pinTop: true,
                   pinBottom: true,
                   child:
-                      // Adobe XD layer: 'bg' (shape)
-                      SvgPicture.string(
+                  // Adobe XD layer: 'bg' (shape)
+                  SvgPicture.string(
                     _svg_o6mpuh,
                     allowDrawingOutsideViewBox: true,
                     fit: BoxFit.fill,
@@ -57,8 +57,8 @@ class XDHistoryPage extends StatelessWidget {
                   pinRight: true,
                   pinTop: true,
                   child:
-                      // Adobe XD layer: 'data' (group)
-                      Stack(
+                  // Adobe XD layer: 'data' (group)
+                  Stack(
                     children: <Widget>[
                       Pinned.fromSize(
                         bounds: Rect.fromLTWH(0.0, 0.0, 343.0, 298.0),
@@ -66,8 +66,8 @@ class XDHistoryPage extends StatelessWidget {
                         pinLeft: true,
                         pinRight: true,
                         child:
-                            // Adobe XD layer: 'content' (group)
-                            Stack(
+                        // Adobe XD layer: 'content' (group)
+                        Stack(
                           children: <Widget>[
                             Pinned.fromSize(
                               bounds: Rect.fromLTWH(0.0, 28.0, 343.0, 270.0),
@@ -77,20 +77,20 @@ class XDHistoryPage extends StatelessWidget {
                               pinTop: true,
                               pinBottom: true,
                               child:
-                                  // Adobe XD layer: 'card' (group)
-                                  Stack(
+                              // Adobe XD layer: 'card' (group)
+                              Stack(
                                 children: <Widget>[
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(0.0, 0.0, 343.0, 270.0),
+                                    Rect.fromLTWH(0.0, 0.0, 343.0, 270.0),
                                     size: Size(343.0, 270.0),
                                     pinTop: true,
                                     child:
-                                        // Adobe XD layer: 'bg' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'bg' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(12.0),
+                                        BorderRadius.circular(12.0),
                                         color: const Color(0xffffffff),
                                         boxShadow: [
                                           BoxShadow(
@@ -104,15 +104,15 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 16.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 16.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     pinTop: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -193,7 +193,7 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(20.0, 20.0, 8.0, 203.0),
+                                    Rect.fromLTWH(20.0, 20.0, 8.0, 203.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinTop: true,
@@ -208,11 +208,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -225,11 +225,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -242,11 +242,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -258,11 +258,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -274,29 +274,29 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
                                         ),
                                         Pinned.fromSize(
                                           bounds:
-                                              Rect.fromLTWH(0.0, 0.0, 8.0, 8.0),
+                                          Rect.fromLTWH(0.0, 0.0, 8.0, 8.0),
                                           size: Size(8.0, 203.0),
                                           pinLeft: true,
                                           pinRight: true,
                                           pinTop: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -309,11 +309,11 @@ class XDHistoryPage extends StatelessWidget {
                                           pinRight: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -325,11 +325,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -341,11 +341,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -358,11 +358,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -375,11 +375,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -392,11 +392,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -409,11 +409,11 @@ class XDHistoryPage extends StatelessWidget {
                                           pinRight: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -427,11 +427,11 @@ class XDHistoryPage extends StatelessWidget {
                                           pinBottom: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -443,11 +443,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -459,11 +459,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -475,11 +475,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -491,11 +491,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -507,11 +507,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -521,65 +521,65 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 66.0, 279.0, 1.0),
+                                    Rect.fromLTWH(48.0, 66.0, 279.0, 1.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'divider' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'divider' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(1.0),
+                                        BorderRadius.circular(1.0),
                                         color: const Color(0xfdf4f4f6),
                                       ),
                                     ),
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 196.0, 279.0, 1.0),
+                                    Rect.fromLTWH(48.0, 196.0, 279.0, 1.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'divider' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'divider' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(1.0),
+                                        BorderRadius.circular(1.0),
                                         color: const Color(0xfdf4f4f6),
                                       ),
                                     ),
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 131.0, 279.0, 1.0),
+                                    Rect.fromLTWH(48.0, 131.0, 279.0, 1.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'divider' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'divider' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(1.0),
+                                        BorderRadius.circular(1.0),
                                         color: const Color(0xfdf4f4f6),
                                       ),
                                     ),
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 81.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 81.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -660,14 +660,14 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 146.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 146.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -748,15 +748,15 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 211.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 211.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     pinBottom: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -865,8 +865,8 @@ class XDHistoryPage extends StatelessWidget {
                         pinLeft: true,
                         pinRight: true,
                         child:
-                            // Adobe XD layer: 'content' (group)
-                            Stack(
+                        // Adobe XD layer: 'content' (group)
+                        Stack(
                           children: <Widget>[
                             Pinned.fromSize(
                               bounds: Rect.fromLTWH(0.0, 28.0, 343.0, 270.0),
@@ -876,20 +876,20 @@ class XDHistoryPage extends StatelessWidget {
                               pinTop: true,
                               pinBottom: true,
                               child:
-                                  // Adobe XD layer: 'card' (group)
-                                  Stack(
+                              // Adobe XD layer: 'card' (group)
+                              Stack(
                                 children: <Widget>[
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(0.0, 0.0, 343.0, 270.0),
+                                    Rect.fromLTWH(0.0, 0.0, 343.0, 270.0),
                                     size: Size(343.0, 270.0),
                                     pinTop: true,
                                     child:
-                                        // Adobe XD layer: 'bg' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'bg' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(12.0),
+                                        BorderRadius.circular(12.0),
                                         color: const Color(0xffffffff),
                                         boxShadow: [
                                           BoxShadow(
@@ -903,15 +903,15 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 16.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 16.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     pinTop: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -992,7 +992,7 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(20.0, 20.0, 8.0, 203.0),
+                                    Rect.fromLTWH(20.0, 20.0, 8.0, 203.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinTop: true,
@@ -1007,11 +1007,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1024,11 +1024,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1041,11 +1041,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1057,11 +1057,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1073,29 +1073,29 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
                                         ),
                                         Pinned.fromSize(
                                           bounds:
-                                              Rect.fromLTWH(0.0, 0.0, 8.0, 8.0),
+                                          Rect.fromLTWH(0.0, 0.0, 8.0, 8.0),
                                           size: Size(8.0, 203.0),
                                           pinLeft: true,
                                           pinRight: true,
                                           pinTop: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -1108,11 +1108,11 @@ class XDHistoryPage extends StatelessWidget {
                                           pinRight: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -1124,11 +1124,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1140,11 +1140,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1157,11 +1157,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1174,11 +1174,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1191,11 +1191,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1208,11 +1208,11 @@ class XDHistoryPage extends StatelessWidget {
                                           pinRight: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -1226,11 +1226,11 @@ class XDHistoryPage extends StatelessWidget {
                                           pinBottom: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'pin' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'pin' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(4.0),
+                                              BorderRadius.circular(4.0),
                                               color: const Color(0xff78849e),
                                             ),
                                           ),
@@ -1242,11 +1242,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1258,11 +1258,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1274,11 +1274,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1290,11 +1290,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1306,11 +1306,11 @@ class XDHistoryPage extends StatelessWidget {
                                           fixedWidth: true,
                                           fixedHeight: true,
                                           child:
-                                              // Adobe XD layer: 'round' (shape)
-                                              Container(
+                                          // Adobe XD layer: 'round' (shape)
+                                          Container(
                                             decoration: BoxDecoration(
                                               borderRadius:
-                                                  BorderRadius.circular(27.0),
+                                              BorderRadius.circular(27.0),
                                               color: const Color(0x4b78849e),
                                             ),
                                           ),
@@ -1320,65 +1320,65 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 66.0, 279.0, 1.0),
+                                    Rect.fromLTWH(48.0, 66.0, 279.0, 1.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'divider' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'divider' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(1.0),
+                                        BorderRadius.circular(1.0),
                                         color: const Color(0xfdf4f4f6),
                                       ),
                                     ),
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 196.0, 279.0, 1.0),
+                                    Rect.fromLTWH(48.0, 196.0, 279.0, 1.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'divider' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'divider' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(1.0),
+                                        BorderRadius.circular(1.0),
                                         color: const Color(0xfdf4f4f6),
                                       ),
                                     ),
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 131.0, 279.0, 1.0),
+                                    Rect.fromLTWH(48.0, 131.0, 279.0, 1.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'divider' (shape)
-                                        Container(
+                                    // Adobe XD layer: 'divider' (shape)
+                                    Container(
                                       decoration: BoxDecoration(
                                         borderRadius:
-                                            BorderRadius.circular(1.0),
+                                        BorderRadius.circular(1.0),
                                         color: const Color(0xfdf4f4f6),
                                       ),
                                     ),
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 81.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 81.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -1459,14 +1459,14 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 146.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 146.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -1547,15 +1547,15 @@ class XDHistoryPage extends StatelessWidget {
                                   ),
                                   Pinned.fromSize(
                                     bounds:
-                                        Rect.fromLTWH(48.0, 211.0, 278.0, 35.0),
+                                    Rect.fromLTWH(48.0, 211.0, 278.0, 35.0),
                                     size: Size(343.0, 270.0),
                                     pinLeft: true,
                                     pinRight: true,
                                     pinBottom: true,
                                     fixedHeight: true,
                                     child:
-                                        // Adobe XD layer: 'text' (group)
-                                        Stack(
+                                    // Adobe XD layer: 'text' (group)
+                                    Stack(
                                       children: <Widget>[
                                         Pinned.fromSize(
                                           bounds: Rect.fromLTWH(
@@ -1669,8 +1669,8 @@ class XDHistoryPage extends StatelessWidget {
                   pinTop: true,
                   fixedHeight: true,
                   child:
-                      // Adobe XD layer: 'top' (group)
-                      Stack(
+                  // Adobe XD layer: 'top' (group)
+                  Stack(
                     children: <Widget>[
                       Pinned.fromSize(
                         bounds: Rect.fromLTWH(0.0, 156.0, 398.0, 6.0),
@@ -1693,8 +1693,8 @@ class XDHistoryPage extends StatelessWidget {
                         pinTop: true,
                         pinBottom: true,
                         child:
-                            // Adobe XD layer: 'bg' (shape)
-                            Container(
+                        // Adobe XD layer: 'bg' (shape)
+                        Container(
                           decoration: BoxDecoration(
                             color: const Color(0xffffffff),
                           ),
@@ -1727,13 +1727,19 @@ class XDHistoryPage extends StatelessWidget {
                         fixedWidth: true,
                         fixedHeight: true,
                         child:
-                            // Adobe XD layer: 'back' (shape)
-                            Container(
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              image: const AssetImage(
-                                  'assets/images/back_icon.png'),
-                              fit: BoxFit.fill,
+                        // Adobe XD layer: 'back' (shape)
+                        InkWell(
+                          splashColor: Colors.black.withOpacity(0.0),
+                          highlightColor: Colors.black.withOpacity(0.0),
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                          child: Container(
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: const AssetImage('assets/images/back_icon.png'),
+                                fit: BoxFit.fill,
+                              ),
                             ),
                           ),
                         ),

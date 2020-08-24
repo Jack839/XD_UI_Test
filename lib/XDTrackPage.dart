@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
+import 'package:xdtest/XDHistoryPage.dart';
 
 class XDTrackPage extends StatelessWidget {
   XDTrackPage({
@@ -19,8 +20,8 @@ class XDTrackPage extends StatelessWidget {
             pinTop: true,
             pinBottom: true,
             child:
-                // Adobe XD layer: 'content' (group)
-                Stack(
+            // Adobe XD layer: 'content' (group)
+            Stack(
               children: <Widget>[
                 Pinned.fromSize(
                   bounds: Rect.fromLTWH(0.0, 0.0, 1130.9, 813.0),
@@ -39,12 +40,12 @@ class XDTrackPage extends StatelessWidget {
                         pinTop: true,
                         pinBottom: true,
                         child:
-                            // Adobe XD layer: 'map' (shape)
-                            Container(
+                        // Adobe XD layer: 'map' (shape)
+                        Container(
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image:
-                                  const AssetImage('assets/images/map_bg.png'),
+                              const AssetImage('assets/images/map_bg.png'),
                               fit: BoxFit.fill,
                             ),
                           ),
@@ -54,8 +55,8 @@ class XDTrackPage extends StatelessWidget {
                         bounds: Rect.fromLTWH(219.0, 0.0, 381.0, 775.0),
                         size: Size(1130.9, 813.0),
                         child:
-                            // Adobe XD layer: 'bg' (shape)
-                            Container(
+                        // Adobe XD layer: 'bg' (shape)
+                        Container(
                           decoration: BoxDecoration(),
                         ),
                       ),
@@ -79,8 +80,8 @@ class XDTrackPage extends StatelessWidget {
                         pinTop: true,
                         pinBottom: true,
                         child:
-                            // Adobe XD layer: 'bg' (shape)
-                            Container(
+                        // Adobe XD layer: 'bg' (shape)
+                        Container(
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(12.0),
                             color: const Color(0xffffffff),
@@ -102,14 +103,47 @@ class XDTrackPage extends StatelessWidget {
                         pinTop: true,
                         pinBottom: true,
                         child:
-                            // Adobe XD layer: 'clock' (shape)
-                            Container(
+                        // Adobe XD layer: 'clock' (shape)
+                        Container(
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: const AssetImage(
                                   'assets/images/history_icon.png'),
                               fit: BoxFit.fill,
                             ),
+                          ),
+                        ),
+                      ),
+                      Pinned.fromSize(
+                        bounds: Rect.fromLTWH(0.0, 0.0, 52.0, 52.0),
+                        size: Size(52.0, 52.0),
+                        pinLeft: true,
+                        pinRight: true,
+                        pinTop: true,
+                        pinBottom: true,
+                        child:
+                        // Adobe XD layer: 'bg' (shape)
+                        Ink(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12.0),
+                            color: const Color(0xffffffff),
+                            boxShadow: [
+                              BoxShadow(
+                                color: const Color(0x1a455b63),
+                                offset: Offset(0, 12),
+                                blurRadius: 16,
+                              ),
+                            ],
+                          ),
+                          child: InkWell(
+                            splashColor: Colors.black.withOpacity(0.0),
+                            highlightColor: Colors.black.withOpacity(0.0),
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(builder: (context) => XDHistoryPage()),
+                              );
+                            },
                           ),
                         ),
                       ),
@@ -127,8 +161,8 @@ class XDTrackPage extends StatelessWidget {
             pinBottom: true,
             fixedHeight: true,
             child:
-                // Adobe XD layer: 'bottom' (group)
-                Stack(
+            // Adobe XD layer: 'bottom' (group)
+            Stack(
               children: <Widget>[
                 Pinned.fromSize(
                   bounds: Rect.fromLTWH(0.0, 0.0, 398.0, 86.0),
@@ -138,8 +172,8 @@ class XDTrackPage extends StatelessWidget {
                   pinTop: true,
                   pinBottom: true,
                   child:
-                      // Adobe XD layer: 'bg' (group)
-                      Stack(
+                  // Adobe XD layer: 'bg' (group)
+                  Stack(
                     children: <Widget>[
                       Pinned.fromSize(
                         bounds: Rect.fromLTWH(0.0, 0.0, 398.0, 86.0),
@@ -157,8 +191,8 @@ class XDTrackPage extends StatelessWidget {
                               pinTop: true,
                               fixedHeight: true,
                               child:
-                                  // Adobe XD layer: 'Rectangle' (shape)
-                                  Container(
+                              // Adobe XD layer: 'Rectangle' (shape)
+                              Container(
                                 decoration: BoxDecoration(
                                   color: const Color(0xff00bcd5),
                                 ),
@@ -190,8 +224,8 @@ class XDTrackPage extends StatelessWidget {
                   pinRight: true,
                   fixedHeight: true,
                   child:
-                      // Adobe XD layer: 'text' (group)
-                      Stack(
+                  // Adobe XD layer: 'text' (group)
+                  Stack(
                     children: <Widget>[
                       Pinned.fromSize(
                         bounds: Rect.fromLTWH(38.0, 0.0, 105.0, 19.0),
@@ -251,8 +285,8 @@ class XDTrackPage extends StatelessWidget {
                         fixedWidth: true,
                         fixedHeight: true,
                         child:
-                            // Adobe XD layer: 'destination' (shape)
-                            Container(
+                        // Adobe XD layer: 'destination' (shape)
+                        Container(
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               image: const AssetImage(
@@ -273,8 +307,8 @@ class XDTrackPage extends StatelessWidget {
                   pinBottom: true,
                   fixedHeight: true,
                   child:
-                      // Adobe XD layer: 'home indicator/dark' (group)
-                      Stack(
+                  // Adobe XD layer: 'home indicator/dark' (group)
+                  Stack(
                     children: <Widget>[
                       Pinned.fromSize(
                         bounds: Rect.fromLTWH(0.0, 0.0, 398.0, 24.0),
@@ -284,8 +318,8 @@ class XDTrackPage extends StatelessWidget {
                         pinTop: true,
                         pinBottom: true,
                         child:
-                            // Adobe XD layer: 'bg' (shape)
-                            Container(
+                        // Adobe XD layer: 'bg' (shape)
+                        Container(
                           decoration: BoxDecoration(
                             color: const Color(0x00000000),
                           ),
@@ -305,8 +339,8 @@ class XDTrackPage extends StatelessWidget {
             pinTop: true,
             fixedHeight: true,
             child:
-                // Adobe XD layer: 'top' (group)
-                Stack(
+            // Adobe XD layer: 'top' (group)
+            Stack(
               children: <Widget>[
                 Pinned.fromSize(
                   bounds: Rect.fromLTWH(0.0, 0.0, 398.0, 209.0),
@@ -314,8 +348,8 @@ class XDTrackPage extends StatelessWidget {
                   pinTop: true,
                   fixedHeight: true,
                   child:
-                      // Adobe XD layer: 'back-gradient' (shape)
-                      Container(
+                  // Adobe XD layer: 'back-gradient' (shape)
+                  Container(
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
                         begin: Alignment(0.0, -1.0),
@@ -354,8 +388,8 @@ class XDTrackPage extends StatelessWidget {
                               pinTop: true,
                               pinBottom: true,
                               child:
-                                  // Adobe XD layer: 'bg' (shape)
-                                  Container(
+                              // Adobe XD layer: 'bg' (shape)
+                              Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(12.0),
                                   color: const Color(0xffffffff),
@@ -423,14 +457,41 @@ class XDTrackPage extends StatelessWidget {
                               fixedWidth: true,
                               fixedHeight: true,
                               child:
-                                  // Adobe XD layer: 'back' (shape)
-                                  Container(
+                              // Adobe XD layer: 'back' (shape)
+                              Container(
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     image: const AssetImage(
                                         'assets/images/back_icon.png'),
                                     fit: BoxFit.fill,
                                   ),
+                                ),
+                              ),
+                            ),
+                            Pinned.fromSize(
+                              bounds: Rect.fromLTWH(0.0, 0.0, 42.0, 40.0),
+                              size: Size(42.0, 40.0),
+                              pinLeft: true,
+                              fixedWidth: true,
+                              fixedHeight: true,
+                              child: Ink(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(12.0),
+                                  color: const Color(0xffffffff),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: const Color(0x29000000),
+                                      offset: Offset(0, 3),
+                                      blurRadius: 16,
+                                    ),
+                                  ],
+                                ),
+                                child: InkWell(
+                                  splashColor: Colors.black.withOpacity(0.0),
+                                  highlightColor: Colors.black.withOpacity(0.0),
+                                  onTap: () {
+                                    Navigator.pop(context);
+                                  },
                                 ),
                               ),
                             ),
