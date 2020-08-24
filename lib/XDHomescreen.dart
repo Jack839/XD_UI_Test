@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:adobe_xd/pinned.dart';
-import 'package:xdtest/XDTrackPage.dart';
+import 'package:xdtest/XDTrackDevice.dart';
 import 'package:xdtest/XDDeleteDevice.dart';
 import 'package:xdtest/XDEditDevice.dart';
 import 'package:xdtest/XDAddDevice.dart';
@@ -177,7 +177,7 @@ class XDHomescreen extends StatelessWidget {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => XDTrackPage()),
+                          MaterialPageRoute(builder: (context) => XDTrackDevice()),
                         );
                       },
                     ),
